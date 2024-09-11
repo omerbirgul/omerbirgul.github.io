@@ -35,5 +35,20 @@ namespace MyPortfolio.Controllers
             portfolioContext.SaveChanges();
             return RedirectToAction("ExperienceList");
         }
+
+        [HttpGet]
+        public IActionResult UpdateExperience(int id)
+        {
+            var value = portfolioContext.Experiences.Find(id);
+            return View(value);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateExperience(Experience experience)
+        {
+            var value = portfolioContext.Experiences.Update(experience);
+            portfolioContext.SaveChanges();
+            return RedirectToAction("ExperienceList");
+        }
     }
 }
