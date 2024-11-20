@@ -5,9 +5,7 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-link-container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
+        <h3>𝖔𝖒𝖊𝖗𝖇𝖎𝖗𝖌𝖚𝖑</h3>
         <div className="footer-items">
           <ul>
             <li>
@@ -156,7 +154,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer-content-container">
-        <p className="footer-content">Made by by Ömer Faruk Birgül</p>
+        <p className="footer-content">Made by Ömer Faruk Birgül</p>
       </div>
     </footer>
   );

@@ -2,27 +2,27 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/2.png",
+            "src": "./img/ux.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet."
+            "description": "I have a solid foundation in frontend development, specializing in React and JavaScript. With expertise in creating responsive, user-friendly interfaces using HTML, CSS, and Bootstrap, I focus on delivering seamless user experiences."
         },
         {
             "id": "2",
-            "src": "./img/3.png",
+            "src": "./img/coding.png",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet."
+            "description": "I specialize in backend development with ASP.NET Core and C#, building scalable, high-performance applications. I am experienced in working with microservices, CQRS, Docker, and robust database management using MS SQL and MongoDB."
         },
         {
             "id": "3",
             "src": "./img/4.png",
             "title": "Blockchain",
-            "description": "Lorem ipsum dolor sit amet."
+            "description": "I am actively exploring blockchain development, diving into the world of decentralized applications and smart contracts. I’m particularly interested in how blockchain can transform industries by enhancing security, transparency, and efficiency."
         },
         {
             "id": "4",
             "src": "./img/5.png",
             "title": "WEB Development",
-            "description": "Lorem ipsum dolor sit amet."
+            "description": "I’m passionate about web development, focusing on creating dynamic, responsive, and high-performance web applications using modern technologies and best practices."
         }
     ],
     "portfolio": [

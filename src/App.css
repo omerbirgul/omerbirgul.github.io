@@ -299,6 +299,12 @@ h3{
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+
+.skills-section-img > img{
+  width: 54px;
+  height: 54px;
+  color: white;
+}
 .skills-section-card-content {
   display: flex;
   flex-direction: column;
