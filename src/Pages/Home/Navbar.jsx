@@ -35,9 +35,7 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
-          <div>
-          <h2>𝖔𝖒𝖊𝖗𝖇𝖎𝖗𝖌𝖚𝖑</h2>
-          </div>
+          <h3>𝖔𝖒𝖊𝖗𝖇𝖎𝖗𝖌𝖚𝖑</h3>
           <a
             className={`nav_hamburger ${navActive ? "active" : ""}`}
             onClick={toggleNav}

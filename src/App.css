@@ -289,7 +289,7 @@ h3{
 .skills-section-card:hover .skills-section-description {
   color: var(--primary);
 }
-.skills--section--img {
+.skills-section-img {
   display: flex;
   padding: 13.3px;
   justify-content: center;
@@ -299,20 +299,20 @@ h3{
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
-.skills--section--card--content {
+.skills-section-card-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
-.skills--section--title {
+.skills-section-title {
   color: var(--heading-color);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
 }
-.skills--section--description {
+.skills-section-description {
   color: var(--black);
   font-size: 21.3px;
   font-style: normal;
@@ -714,15 +714,15 @@ input[type="checkbox"] {
   .navbar-items.active {
     top: 30px;
   }
-  .nav_hamburger.active :nth-child(1) {
+  .nav_hamburger .active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
   }
 
-  .nav_hamburger.active :nth-child(2) {
+  .nav_hamburger .active :nth-child(2) {
     opacity: 0;
   }
 
-  .nav_hamburger.active :nth-child(3) {
+  .nav_hamburger .active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 }

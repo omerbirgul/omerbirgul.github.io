@@ -17,10 +17,9 @@ const HeroSection = () => {
                         Developer
                     </h1>
                     <p className="hero-section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, incidunt.
+                      specializing in <b>ASP.NET Core</b>, <b>C#</b> and <b>JavaScript</b>. I’m passionate about building scalable and efficient applications, combining clean code with practical solutions.
                         <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                        Let’s turn ideas into reality!                    </p>
                 </div>
                 <button className="btn btn-primary" onClick={resumeDownloader}>Download My CV</button>
             </div>

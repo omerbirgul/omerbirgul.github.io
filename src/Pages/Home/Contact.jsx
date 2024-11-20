@@ -26,7 +26,7 @@ const Contact = () => {
 
                     <label htmlFor="phone-number" className="contact-label">
                         <span className="text-md">Phone Number:</span>
-                        <input type="tel" className="contact-input text-md" name="phone-number" id="phone-number" maxLength={11} required />
+                        <input type="tel" className="contact-input text-md" name="phone-number" id="phone-number" maxLength={11} placeholder="555 555 55 55"/>
                     </label>
 
                 </div>
