@@ -2,6 +2,7 @@ import HeroSection from "../HeroSection";
 import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
+import Contact from "../Contact";
 
 const index = () => {
     return (
@@ -10,6 +11,7 @@ const index = () => {
         <MySkills/>
         <AboutMe />
         <MyPortfolio />
+        <Contact/>
         </>
     );
 }
