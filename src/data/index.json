@@ -24,5 +24,21 @@
             "title": "WEB Development",
             "description": "Lorem ipsum dolor sit amet."
         }
+    ],
+    "portfolio": [
+        {
+            "id":1,
+            "src": "./img/project1.png",
+            "title": "MicroShop E-Commerce",
+            "description": "Microservice project made by Asp.Net Core",
+            "link":"https://github.com/omerbirgul/E-Commerce-Microservice-Project"
+        },
+        {
+            "id":2,
+            "src": "./img/blockchainProject.png",
+            "title": "Blockchain With C#",
+            "description": "A C# project to understand Block and Blockchain concepts",
+            "link":"https://github.com/omerbirgul/create-blockchains-with-CSharp"
+        }
     ]
 }
