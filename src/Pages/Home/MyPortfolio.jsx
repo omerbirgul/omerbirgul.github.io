@@ -41,7 +41,10 @@ const MyPortfolio = () => {
                                     {item.description}
                                 </p>
                             </div>
-                            <p className="text-sm portfolio-link">{item.link}
+                            <p 
+                            className="text-sm portfolio-link"
+                            onClick={() => window.open(item.link, '_blank')}
+                            >View On Github
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
