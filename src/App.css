@@ -248,32 +248,28 @@ h3{
 /* Hero Section Ends */
 
 /* Skills Section Starts */
-
-.skills-section{
+.skills-section {
   display: flex;
-  padding: 149.333px 85.33px;
+  padding: 149.33px 85.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
 }
-
-.skills-section-heading{
+.skills-section-heading {
   color: var(--heading-color);
+  font-size: 64px;
   font-weight: 700;
   line-height: 77px;
-  font-size: 64px;
 }
-
-.skills-section-container{
+.skills-section-container {
   display: grid;
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-
-.skills-section-card{
+.skills-section-card {
   display: flex;
   padding: 32px;
   flex-direction: column;
@@ -281,19 +277,16 @@ h3{
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background-color: var(--bg-shade);
+  background: var(--bg-shade);
   min-height: 250px;
 }
-
-.skills-section-card:hover{
+.skills-section-card:hover {
   border-bottom: 4px solid var(--primary);
 }
-
-.skills-section-card:hover .skills-section-description{
-color: #701999;
+.skills-section-card:hover .skills-section-description {
+  color: var(--primary);
 }
-
-.skills-section-img{
+.skills--section--img {
   display: flex;
   padding: 13.3px;
   justify-content: center;
@@ -303,107 +296,92 @@ color: #701999;
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
-
-.skills-section-card-content{
+.skills--section--card--content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
-
-.skills-section-title{
+.skills--section--title {
   color: var(--heading-color);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
 }
-
-.skills-section-description{
+.skills--section--description {
   color: var(--black);
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
-
 /* Skills Style Ends */
 
 /* About Style Starts */
 
-.about-section{
+.about-section {
   display: grid;
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.about-section-img > img{
+.about-section-img > img {
   width: 100%;
-  height: 600px;
+  height: 100%;
 }
 
 /* About Style Ends */
 
 /* Portfolio Style Starts */
 
-.portfolio-section{
+.portfolio-section {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
 }
-
-.portfolio-container-box{
+.portfolio-container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
-.portfolio-container{
+.portfolio-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  grid-area: 21.3px;
+  gap: 21.3px;
 }
-
-.portfolio-section-container{
+.portfolio-section-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 42.6px;
   width: 100%;
 }
-
-.portfolio-section-img{
+.portfolio-section-img {
   border-radius: 8px;
   width: 100%;
 }
-
-.portfolio-section-img > img{
+.portfolio-section-img > img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
 }
-
-.portfolio-section-card{
+.portfolio-section-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex-direction: 1 0 0;
+  flex: 1 0 0;
   background: #fff;
-  box-shadow: 0 0 32px 0 rgba(0 , 0, 0, 0.15);
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-
-.portfolio-section-card-content{
+.portfolio-section-card-content {
   display: flex;
   padding: 32px;
   flex-direction: column;
@@ -411,12 +389,10 @@ color: #701999;
   gap: 32px;
   align-self: stretch;
 }
-
-.portfolio-section-title{
+.portfolio-section-title {
   color: var(--heading-color);
 }
-
-.portfolio-link{
+.portfolio-link {
   text-decoration: none;
   display: flex;
   gap: 16px;
@@ -424,9 +400,80 @@ color: #701999;
   padding-bottom: 10.6px;
   font-weight: 600;
 }
-
-.portfolio-section-card:hover path{
+.portfolio-section-card:hover path {
   stroke: #006b6a;
 }
-
 /* Portfolio Section Ends */
+
+/* Contact Style Starts */
+
+.contact-section {
+  display: flex;
+  padding: 150px 85px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 64px;
+}
+.contact-form-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(5, auto);
+  width: 40%;
+  row-gap: 32px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 32px;
+  row-gap: 32px;
+}
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10.6px;
+  flex: 1 0 0;
+  width: 100%;
+}
+.contact-input {
+  display: flex;
+  font-family: "Roboto";
+  padding: 16px;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1.333px solid var(--primary);
+  background: var(--white);
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Some browsers will not display the caret when using calc, so we put the fallback first */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    white no-repeat calc(100% - 20px); /* Better placement regardless of input width */
+}
+/*For IE*/
+select::-ms-expand {
+  display: none;
+}
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10.6px;
+  flex: 1 0 0;
+  justify-content: flex-start;
+}
+input[type="checkbox"] {
+  width: 21px;
+  height: 21px;
+  border: 0.15em solid var(--heading-color);
+  border-radius: 0.15em;
+  transform: translatey(-0.075em);
+}
+/* Contact End */
