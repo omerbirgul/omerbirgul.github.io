@@ -1,9 +1,11 @@
-import HeroSection from "./HeroSection";
+import HeroSection from "../HeroSection";
+import MySkills from "../MySkills";
 
 const index = () => {
     return (
         <>
         <HeroSection/>
+        <MySkills/>
         </>
     );
 }

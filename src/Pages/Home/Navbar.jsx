@@ -36,7 +36,9 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src="" alt="" />
+                {/* <img id="navbarLogo" src="./img/logo.png" alt="" /> */}
+                <h2>𝖔𝖒𝖊𝖗𝖇𝖎𝖗𝖌𝖚𝖑</h2>
+                
             </div>
             <a href="" className={`nav_hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav_hamburger_line"></span>

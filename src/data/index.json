@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/2.png",
+            "title": "Front-End",
+            "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "id": "2",
+            "src": "./img/3.png",
+            "title": "Back-End",
+            "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "id": "3",
+            "src": "./img/4.png",
+            "title": "Blockchain",
+            "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "id": "4",
+            "src": "./img/5.png",
+            "title": "WEB Development",
+            "description": "Lorem ipsum dolor sit amet."
+        }
+    ]
+}
