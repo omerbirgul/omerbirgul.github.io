@@ -3,16 +3,16 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer--container">
-      <div className="footer--link--container">
+    <footer className="footer-container">
+      <div className="footer-link-container">
         <div>
           <img src="./img/logo.svg" alt="Logoipsum" />
         </div>
-        <div className="footer--items">
+        <div className="footer-items">
           <ul>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -25,12 +25,12 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="myPortfolio"
                 className="text-md"
               >
                 Portfolio
@@ -38,12 +38,12 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="aboutMe"
                 className="text-md"
               >
                 About Me
@@ -51,59 +51,43 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="contact"
                 className="text-md"
               >
                 Contact
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
-              </Link>
-            </li>
           </ul>
         </div>
-        <div className="footer--social--icon">
+        <div className="footer-social-icon">
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
-                className="navbar--content"
+                href="https://github.com/omerbirgul"
+                className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                >
-                  <path
-                    d="M22.6667 8.65479H18.6667C17.9303 8.65479 17.3333 9.25175 17.3333 9.98812V13.9881H22.6667C22.8183 13.9848 22.9621 14.0553 23.0523 14.1773C23.1424 14.2993 23.1677 14.4575 23.12 14.6015L22.1333 17.5348C22.0424 17.804 21.7908 17.986 21.5067 17.9881H17.3333V27.9881C17.3333 28.3563 17.0348 28.6548 16.6667 28.6548H13.3333C12.9651 28.6548 12.6667 28.3563 12.6667 27.9881V17.9881H10.6667C10.2985 17.9881 10 17.6896 10 17.3215V14.6548C10 14.2867 10.2985 13.9881 10.6667 13.9881H12.6667V9.98812C12.6667 7.0426 15.0545 4.65479 18 4.65479H22.6667C23.0348 4.65479 23.3333 4.95327 23.3333 5.32145V7.98812C23.3333 8.35631 23.0348 8.65479 22.6667 8.65479Z"
-                    fill="black"
-                  />
-                </svg>
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577v-2.234c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.761-1.604-2.665-.304-5.466-1.332-5.466-5.93 0-1.31.469-2.382 1.236-3.221-.124-.303-.536-1.526.117-3.176 0 0 1.01-.323 3.31 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.297-1.553 3.307-1.23 3.307-1.23.656 1.65.244 2.873.12 3.176.77.839 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.92.43.37.823 1.102.823 2.222v3.293c0 .32.192.694.8.576C20.565 21.798 24 17.302 24 12c0-6.627-5.373-12-12-12z" />
+                        </svg>
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
-                className="navbar--content"
+                href="https://www.instagram.com/omerbirgulll/"
+                className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -125,8 +109,8 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
-                className="navbar--content"
+                href="https://x.com/omerbirgull"
+                className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -146,8 +130,8 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
-                className="navbar--content"
+                href="www.linkedin.com/in/omerbirgul"
+                className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -171,51 +155,8 @@ function Footer() {
         </div>
       </div>
       <hr className="divider" />
-      <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
-        <div className="footer--social--icon">
-          <ul>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Privacy_Policy"
-                className="text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Terms_of_Service"
-                className="text-sm"
-              >
-                Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Cookies_Settings"
-                className="text-sm"
-              >
-                Cookies Settings
-              </Link>
-            </li>
-          </ul>
-        </div>
+      <div className="footer-content-container">
+        <p className="footer-content">Made by by Ömer Faruk Birgül</p>
       </div>
     </footer>
   );
