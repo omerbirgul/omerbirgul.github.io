@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.96de63ff.css",
-    "main.js": "/static/js/main.878748e1.js",
-    "index.html": "/index.html",
-    "main.96de63ff.css.map": "/static/css/main.96de63ff.css.map",
-    "main.878748e1.js.map": "/static/js/main.878748e1.js.map"
+    "main.css": "/omerbirgul.github.io/static/css/main.96de63ff.css",
+    "main.js": "/omerbirgul.github.io/static/js/main.878748e1.js",
+    "index.html": "/omerbirgul.github.io/index.html",
+    "main.96de63ff.css.map": "/omerbirgul.github.io/static/css/main.96de63ff.css.map",
+    "main.878748e1.js.map": "/omerbirgul.github.io/static/js/main.878748e1.js.map"
   },
   "entrypoints": [
     "static/css/main.96de63ff.css",
