@@ -1,3 +1,10 @@
+const resumeDownloader = () =>{
+    const link = document.createElement('a');
+    link.href = "./CV/OmerBirgulEnglishCV.pdf";
+    link.download = "omerBirgulEnglishCv.pdf";
+    link.click();
+}
+
 const HeroSection = () => {
     return (
         <section id="heroSection" className="hero-section">
@@ -15,7 +22,7 @@ const HeroSection = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
-                <button className="btn btn-primary">Get in Touch</button>
+                <button className="btn btn-primary" onClick={resumeDownloader}>Download My CV</button>
             </div>
             <div className="hero-section-img">
                 <img src="./img/1.jpg" alt="" />
