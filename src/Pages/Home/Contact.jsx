@@ -7,7 +7,7 @@ const Contact = () => {
                 <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, repellat!</p>
             </div>
 
-            <form action="" className="contact-form-container">
+            <form action="https://formspree.io/f/mzzbvjeb" method="post" className="contact-form-container">
                 <div className="container">
                     <label htmlFor="first-name" className="contact-label">
                         <span className="text-md">First Name:</span>
@@ -26,7 +26,7 @@ const Contact = () => {
 
                     <label htmlFor="phone-number" className="contact-label">
                         <span className="text-md">Phone Number:</span>
-                        <input type="tel" className="contact-input text-md" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                        <input type="tel" className="contact-input text-md" name="phone-number" id="phone-number" maxLength={11} required />
                     </label>
 
                 </div>

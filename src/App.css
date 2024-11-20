@@ -243,6 +243,9 @@ h3{
 .hero-section-img > img{
   width: 100%;
   height: 100%;
+
+  /* max-width: 400px;
+  max-height: 500px; */
 }
 
 /* Hero Section Ends */
@@ -330,6 +333,8 @@ h3{
 .about-section-img > img {
   width: 100%;
   height: 100%;
+
+  max-width: 400px;
 }
 
 /* About Style Ends */

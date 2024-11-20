@@ -25,7 +25,7 @@ const HeroSection = () => {
                 <button className="btn btn-primary" onClick={resumeDownloader}>Download My CV</button>
             </div>
             <div className="hero-section-img">
-                <img src="./img/1.jpg" alt="" />
+                <img src="./img/IMG-20241120-WA0016.jpg" alt="" />
             </div>
         </section>
     )
